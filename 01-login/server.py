@@ -81,7 +81,7 @@ def callback_handling():
     session[constants.PROFILE_KEY] = {
         'user_id': userinfo['sub'],
         'name': userinfo['name'],
-        'picture': userinfo['picture']
+        #'picture': userinfo['picture']
     }
     return redirect('/dashboard')
 
